@@ -109,6 +109,7 @@ class MarcoMesa extends JFrame {
 								lbl.setText("X");
 								sumPrimeraCarta+=drawOponentCard.getValor();
 								suma2.setText("X+ "+sum);
+								primeraCartaOponente=false;
 							}
 							else {
 								lbl.setText(drawOponentCard.getNombreCarta());
